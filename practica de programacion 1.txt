@@ -1,0 +1,66 @@
+¿Que es GIT?
+    R// Es un proyecto de codigo abierto maduro y con mantenimiento activo que desarrollo orginalmente Linus Torvalds, 
+    el famoso creador del kernel del sistema operativo Linux.
+
+    ¿Cuáles son los comandos más importantes y para que sirven?
+
+R// git init: Inicializa un repositorio Git en un directorio local.
+git clone: Clona un repositorio Git existente en tu máquina local.
+git add: Agrega cambios al área de preparación (staging) para ser incluidos en el próximo commit.
+git commit: Guarda los cambios en el repositorio local.
+git push: Sube los commits locales al repositorio remoto.
+git pull: Obtiene cambios del repositorio remoto y los fusiona con tu rama local.
+git branch: Lista, crea o elimina ramas.
+git checkout: Cambia entre ramas o restaura archivos.
+git merge: Fusiona una rama con otra.
+git status: Muestra el estado actual del repositorio.
+git log: Muestra el historial de commits.
+git remote: Configura o muestra repositorios remotos.
+git fetch: Descarga objetos y referencias de otro repositorio.
+git tag: Administra etiquetas de versión.
+git revert: Revierte un commit específico.
+git reset: Restablece el estado del repositorio a un commit específico.
+git stash: Almacena temporalmente los cambios locales sin hacer commit.
+git config: Configura opciones de Git, como nombre de usuario y correo electrónico.
+
+
+
+En cuanto a GitHub, algunos comandos adicionales o funciones importantes son:
+
+git remote add origin <URL>: Asocia el repositorio local con un repositorio remoto en GitHub.
+git pull origin <branch>: Obtiene los cambios de una rama específica en el repositorio remoto y los fusiona con tu rama local.
+Pull Requests: No es un comando, pero es una funcionalidad clave en GitHub para
+proponer cambios y solicitar su revisión e integración en un proyecto.
+Issues: También no es un comando, pero es una forma de seguir problemas, errores o tareas pendientes en un proyecto.
+GitHub Actions: Utiliza comandos de flujo de trabajo para automatizar tareas en tu repositorio de GitHub.
+
+¿Cuál es la diferencia entre Git y Github?
+R//Git:
+
+Git es un sistema de control de versiones distribuido, diseñado para gestionar proyectos de cualquier tamaño con rapidez y eficiencia.
+Permite a los desarrolladores llevar un registro de los cambios en el código fuente a lo largo del tiempo, facilitando la colaboración y la gestión de versiones.
+Git funciona localmente en el equipo de cada desarrollador, lo que significa que no necesita conexión a Internet para realizar operaciones como commit, 
+rastrear cambios y trabajar con ramas.
+
+GitHub:
+
+GitHub es una plataforma de alojamiento de repositorios Git que facilita la colaboración entre desarrolladores.
+Proporciona servicios adicionales basados en la nube, como seguimiento de problemas (issues), pull requests, wikis, gestión de proyectos, integración continua y más.
+Permite a los equipos trabajar de manera colaborativa en proyectos de código abierto y privados, alojando los repositorios en la nube.
+
+ ¿Enumere los comandos para subir cambios a un repositorio.?
+ git add .: Agrega todos los cambios realizados en los archivos del repositorio al área de preparación (staging).
+
+git commit -m "mensaje del commit": Crea un nuevo commit con los cambios que han sido agregados al área de preparación. El mensaje del commit proporciona una descripción breve de los cambios realizados.
+
+git push origin <nombre-de-rama>: Sube los commits locales al repositorio remoto en GitHub, específicamente a la rama especificada. <nombre-de-rama> es el nombre de la rama en la que estás trabajando. Por ejemplo, si estás trabajando en la rama principal (generalmente llamada main o master), sería algo así como git push origin main.
+ 
+
+ ¿Qué es una branch  ?
+ Una "branch" (rama en español) en Git es una línea independiente de desarrollo que permite trabajar en características nuevas o en correcciones de errores sin afectar el código en otras ramas. Esencialmente, una rama es una versión paralela del código principal (generalmente llamado "master" o "main") que permite a los desarrolladores trabajar en diferentes aspectos del proyecto de forma aislada.
+
+Cada repositorio Git comienza con una rama predeterminada (generalmente llamada "master" o "main"). A medida que se desarrolla el proyecto, los desarrolladores pueden crear nuevas ramas a partir de esta rama principal para trabajar en cambios específicos. Por ejemplo, podrían crear una rama para trabajar en una nueva función, una para corregir un error, o incluso una para realizar experimentos sin afectar la rama principal.
+
+
+resumen de git y GitHub
+En el tutorial "Git y Github | Curso Práctico de Git y Github Desde Cero", se presenta Git como un sistema de control de versiones que ayuda a los desarrolladores a administrar diferentes versiones de su código. Git ofrece un sistema de gestión de código similar a una máquina del tiempo y permite el control distribuido, lo que permite a los desarrolladores trabajar localmente mientras contribuyen al código desde cualquier parte del mundo. El video analiza los conceptos básicos de configurar Git, crear un repositorio, crear y confirmar cambios, ignorar archivos, crear y cambiar entre ramas y cargar código en Github. El instructor también proporciona un sitio web donde los espectadores pueden acceder a todos sus cursos creados y sugiere continuar aprendiendo para mejorar aún más las habilidades de programación y desarrollo.
